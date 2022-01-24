@@ -60,3 +60,11 @@ h5,
 h6 {
   overflow-wrap: break-word;
 }
+
+button {
+  border: none;
+}
+
+a {
+  text-decoration: none;
+}
