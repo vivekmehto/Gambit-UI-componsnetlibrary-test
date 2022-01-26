@@ -1,8 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+@import url(/css/main.css);
 
 .grid-container {
   width: 100vw;
@@ -15,13 +11,35 @@ header {
 }
 
 main {
-  /* background-color: rgb(187, 67, 187); */
-  height: 80vh;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+
+.main-head {
+  padding: 1.5rem;
+  width: 90%;
+  font-size: 2.5rem;
+}
+
+.main-subhead {
+  width: 95%;
+  font-size: 1.5rem;
+  align-self: flex-start;
+}
+
+.main-buttons {
+  margin-top: 1rem;
+  align-self: center;
 }
 
 footer {
   /* background-color: rgb(221, 201, 201); */
-  height: 10vh;
+  height: 15vh;
 }
 
 .header {
@@ -31,4 +49,29 @@ footer {
 
 .header-nav {
   margin-left: auto;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-icons i {
+  cursor: pointer;
+  font-size: 2rem;
+  margin: 0.5rem 1rem;
+  padding: 0.2rem 0.5rem;
 }
