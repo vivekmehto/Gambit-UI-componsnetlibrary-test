@@ -60,6 +60,12 @@
 .btn-block {
   width: 100%;
 }
+/* 
+.btn-float {
+  position: absolute;
+  bottom: 0px;
+  left: 20px; 
+} */
 
 .btn:hover {
   cursor: pointer;
