@@ -7,7 +7,7 @@
 
 header {
   height: 10vh;
-  /* background-color: rgb(192, 49, 49); */
+  /* background-color: #046865; */
 }
 
 main {
@@ -38,7 +38,7 @@ main {
 }
 
 footer {
-  /* background-color: rgb(221, 201, 201); */
+  /* background-color: #046865; */
   height: 15vh;
 }
 
@@ -52,6 +52,7 @@ footer {
 }
 
 .footer {
+  /* color: #f7f7f2; */
   display: flex;
   flex-direction: column;
   justify-content: center;
