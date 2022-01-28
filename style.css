@@ -1,5 +1,13 @@
 @import url(/css/main.css);
 
+:root {
+  --primary-color: #ff382e;
+  --secondary-color: #5348c7;
+  --background-color: #f7f7f7;
+  --text-color: #282828;
+  --accent-color: #3b82f6;
+}
+
 .grid-container {
   width: 100vw;
   height: 100vh;
@@ -7,7 +15,6 @@
 
 header {
   height: 10vh;
-  /* background-color: #046865; */
 }
 
 main {
