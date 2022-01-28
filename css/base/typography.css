@@ -1,4 +1,71 @@
-.circle {
+/* Headings  */
+
+.head-1 {
+  font-size: 3rem;
+  line-height: 4rem;
+  font-weight: 700;
+}
+
+.head-2 {
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: 600;
+}
+.head-3 {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 600;
+}
+.head-4 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+}
+.head-5 {
+  font-size: 0.5rem;
+  line-height: 1rem;
+  font-weight: 400;
+}
+
+/* font-weight  */
+
+/* bold  */
+.fw-b {
+  font-weight: 600;
+}
+/* semi bold  */
+.fw-sb {
+  font-weight: 500;
+}
+/* regular  */
+.fw-r {
+  font-weight: 400;
+}
+
+/*   light  */
+.fw-l {
+  font-weight: 300;
+}
+
+/* border radius  */
+
+/* small */
+.br-s {
+  border-radius: 5px;
+}
+
+/* medium  */
+.br-m {
+  border-radius: 10px;
+}
+
+/* large  */
+.br-l {
+  border-radius: 15px;
+}
+
+/* border radius full or Circle  */
+.br-f {
   width: max-content;
   max-height: max-content;
   border-radius: 50%;
