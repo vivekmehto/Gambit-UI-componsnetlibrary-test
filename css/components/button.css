@@ -69,7 +69,7 @@
 
 .btn:hover {
   cursor: pointer;
-  font-weight: 600;
+  /* font-weight: 600; */
   transition: 0.2s ease-out;
 }
 
@@ -78,7 +78,8 @@
 }
 
 .btn-secondary:hover {
-  background-color: var(--grey-d);
+  color: var(--white);
+  background-color: var(--primary-color);
 }
 
 .btn-success:hover {
