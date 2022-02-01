@@ -1,0 +1,55 @@
+aside {
+  width: max-content;
+  height: 90vh;
+  margin-left: 15%;
+  font-size: 1.2rem;
+  padding: 1rem 0.5rem;
+  color: var(--secondary-color);
+  /* background-color: var(--primary-color); */
+}
+
+.sidebar .list .list-topic {
+  font-weight: 700;
+}
+
+.sidebar .list-subtopic .active {
+  font-weight: 600;
+}
+
+.sidebar .list-subtopic li {
+  list-style: none;
+  display: block;
+  margin: auto;
+  padding: 0.5rem;
+  font-weight: 500;
+}
+
+.intro-container {
+  display: grid;
+  grid-template-areas:
+    "gutter header header header gutter"
+    "gutter sidebar main main gutter";
+}
+
+.intro-container .gutter {
+  grid-area: gutter;
+}
+.intro-container .header {
+  grid-area: header;
+}
+
+.intro-container .sidebar {
+  grid-area: sidebar;
+}
+
+.intro-container .main-c {
+  grid-area: main;
+}
+
+/* gutter css  */
+
+.gutter {
+  width: 200px;
+  height: 100vh;
+  background-color: var(--primary-color);
+}
